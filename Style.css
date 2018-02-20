@@ -1,5 +1,5 @@
 .button {
-    background-color: #4CAF50;
+    background-color: #0000FF;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -9,9 +9,17 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 12px;
+} 
+    
+.bDBlue {background-color: #0000FF;} /* Dark Blue */
+.bLGreen {background-color: #00FF00;} /* Lime Green */
+.bRed {background-color: #FF0000;} /* Red */
+.bLBlue {background-color: #85C1E9;} /* Light Blue */
+.bPurple {background-color: #8E44AD;} /* Purple */
+.bYellow {background-color: #F1C40F;} /* Yellow */
+    
+body {
+    font-family: Ubuntu;
+    background-color:rgba(120,120,120,0.4); 
 }
-
-.button2 {background-color: #008CBA;}
-.button3 {background-color: #f44336;}
-.button4 {background-color: #e7e7e7;}
-.button5 {background-color: #555555;}
