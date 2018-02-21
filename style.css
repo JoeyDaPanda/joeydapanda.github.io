@@ -1,6 +1,6 @@
 .button {
 
-    background-color: #0000FF;
+    background-color: #FFFFFF;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -13,10 +13,10 @@
     border-radius: 12px;
 
 } 
-    
-.buttonBlue {background-color: #0000FF;}    /* Dark Blue */
-.buttonGreen {background-color: #00FF00;}   /* Lime Green */
-.buttonRed {background-color: #FF0000;}     /* Red */
+
+.red {background-color: #FF0000;}     /* Red */  
+.green {background-color: #00FF00;}   /* Green */
+.blue {background-color: #0000FF;}    /* Blue */
     
 body {
 
