@@ -14,6 +14,12 @@
 
 } 
 
+.setWidth {
+
+    width: 150px;
+
+}
+
 .red {background-color: #FF0000;}     /* Red */  
 .green {background-color: #00FF00;}   /* Green */
 .blue {background-color: #0000FF;}    /* Blue */
