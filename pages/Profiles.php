@@ -7,9 +7,9 @@
 
 <head>
 
-  <title>PROPAGANDA</title>
-  <link rel="icon" href="assets/icon.png">
-  <link rel="stylesheet" href="joeydapanda.github.io/style.css" />
+  <title>PROFILES</title>
+  <link rel="icon" href="../assets/icon.png">
+  <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
 
 </head>
