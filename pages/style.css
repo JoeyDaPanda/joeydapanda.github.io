@@ -1,0 +1,26 @@
+.button {
+
+    background-color: #FFFFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+} 
+
+.red {background-color: #FF0000;}     /* Red */  
+.green {background-color: #00FF00;}   /* Green */
+.blue {background-color: #0000FF;}    /* Blue */
+    
+body {
+
+    font-family: Ubuntu;
+    background-color:rgb(250,250,250); 
+
+}
