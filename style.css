@@ -23,14 +23,31 @@ body {
 .setsize {
 
     width: 250px;
-    padding: 15px 0px ;
+    padding: 15px 0px;
 
 }
 
 .red {background-color: #FF0000;}     /* Red */  
 .green {background-color: #00FF00;}   /* Green */
 .blue {background-color: #0000FF;}    /* Blue */
-.back {background-color: #AAAAAA;}    /* Gray */
+
+
+.back {
+    
+    background-color: #AAAAAA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 250px;
+    padding: 15px 0px;
+
+}
 
 .footer{    
 
