@@ -47,7 +47,8 @@ body {
 }
 
 .header {
-
+       
+       text-align: center;
        top: 100%;
        position: fixed;
        width: 100%;
