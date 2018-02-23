@@ -55,6 +55,11 @@ body {
        width: 100%;
 }
 
+.avoidhead {
+
+       top; 90%;
+}
+
 .dropdown {
 
     position: relative;
