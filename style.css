@@ -59,7 +59,7 @@ body {
 
 .spacer {
     width: 100%;
-    height: 20%;
+    height: 10%;
 }
 
 .dropdown {
@@ -86,8 +86,4 @@ body {
 
     display: block;
 
-}
-
-a.active {
-    background-color: #515A5A;
 }
