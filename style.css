@@ -46,6 +46,12 @@ body {
        position: fixed;
 }
 
+.header {
+
+       top: 100%;
+       position: fixed;
+}
+
 .dropdown {
 
     position: relative;
