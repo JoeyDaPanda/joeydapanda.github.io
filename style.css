@@ -57,11 +57,9 @@ body {
        z-index: 1;
 }
 
-.avoidhead {
-
-       position: relative;
-       top: 85%;
-       z-index: -1;
+.spacer {
+    width: 100%;
+    height: 95px;
 }
 
 .dropdown {
