@@ -59,7 +59,8 @@ body {
 
 .avoidhead {
 
-       top: 90%;
+       position: relative;
+       top: 85%;
        z-index: -1;
 }
 
