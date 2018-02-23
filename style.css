@@ -58,6 +58,7 @@ body {
 .avoidhead {
 
        top: 90%;
+       z-index: -1;
 }
 
 .dropdown {
