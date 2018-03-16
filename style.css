@@ -102,3 +102,7 @@ div.buttoncontainer {
   margin: 0 auto;
 
 }
+
+div.background {
+    z-index: -1;
+}
