@@ -58,6 +58,7 @@ body {
 }
 
 .spacer {
+
     width: 100%;
     height: 10%;
 }
@@ -85,5 +86,18 @@ body {
 .dropdown:hover .dropdown-content {
 
     display: block;
+
+}
+
+div.buttoncontainer {
+
+    top: 25px; 
+    position: relative;
+
+}
+
+.center {
+
+  margin: 0 auto;
 
 }
