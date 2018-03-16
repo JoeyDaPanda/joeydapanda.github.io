@@ -92,7 +92,7 @@ body {
 div.buttoncontainer {
 
     top: 10%; 
-    position: relative;
+    position: absolute;
 
 }
 
