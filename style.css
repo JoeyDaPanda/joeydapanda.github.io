@@ -103,6 +103,9 @@ div.buttoncontainer {
 
 }
 
-div.background {
+div.sphere {
     z-index: -1;
+    widht 100%
+    position: absolute;
+    top: 100px;
 }
