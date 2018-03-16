@@ -47,7 +47,7 @@ class Point {
 class Sphere {
 	constructor(radius = 20.0) {
 		this.point = []
-		this.color = "rgb(100,0,255)"
+		this.color = "rgb(255,255,255)"
 		this.radius = radius
 		this.numberOfVertexes = 0
 
