@@ -48,6 +48,10 @@ body {
        z-index: 1;
 }
 
+.textcenter {
+       text-align: center;
+}
+
 .header {
        
        text-align: center;
