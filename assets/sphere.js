@@ -1,7 +1,7 @@
 const c = document.createElement('canvas')
 const $ = c.getContext('2d')
-const w = c.width = 420
-const h = c.height = 420
+const w = c.width = 350
+const h = c.height = 350
 
 document.body.appendChild(c)
 
