@@ -110,6 +110,6 @@ div.buttoncontainer {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: 175px;
-    margin-left: 175px;
+    margin-top: -175px;
+    margin-left: -175px;
 }
