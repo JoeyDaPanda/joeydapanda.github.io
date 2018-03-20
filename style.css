@@ -106,10 +106,10 @@ div.buttoncontainer {
 
 .sphere {
     z-index: -1;
-    width: 100%;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -175px;
-    margin-left: -175px;
+    margin-top: -220px;
+    margin-left: -220px;
 }
+
