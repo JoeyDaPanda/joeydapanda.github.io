@@ -121,3 +121,6 @@ div.buttoncontainer {
     object-position: 50% 50%;   
 }
 
+div.w1000 {
+    max-width:1000px;
+  }
