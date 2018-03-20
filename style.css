@@ -113,3 +113,7 @@ div.buttoncontainer {
     margin-left: -220px;
 }
 
+#Sphere-center {
+    object-position: 50% 50%;   
+}
+
