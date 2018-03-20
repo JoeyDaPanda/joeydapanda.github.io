@@ -104,7 +104,7 @@ div.buttoncontainer {
 
 }
 
-div.sphere {
+.sphere {
     z-index: -1;
     width: 100%;
     position: fixed;
