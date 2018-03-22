@@ -122,5 +122,12 @@ div.buttoncontainer {
 }
 
 div.w750 {
-    max-width:750px;
+    width:750px;
   }
+
+p.redbox {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
