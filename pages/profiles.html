@@ -15,6 +15,51 @@
   <link rel="stylesheet" href="/style.css">
 
 </head>
+  
+  <style>
+  .dropbtn {
+    background-color: Blue;
+    color: white;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: Blue;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: white;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: white;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+  </style>
 
 <body>
 
@@ -32,16 +77,21 @@
 </div>
 </div>
   </header>
+  
+  
 
 <div class="buttoncontainer center">
-
-<a href="http://steamcommunity.com/profiles/76561198130572111" target="_blank" class="button setsize blue">Steam</a>
-  <br>
-<a href="http://steamrep.com/profiles/76561198130572111" target="_blank" class="button setsize blue">SteamRep</a>
-  <br>
-<a href="https://steamdb.info/calculator/76561198130572111/" target="_blank" class="button setsize blue">SteamDB</a>
-  <br>
-<a href="https://steamladder.com/profile/76561198130572111/" target="_blank" class="button setsize blue">SteamLadder</a>
+  
+  <div class="dropdown">
+  <button class="dropbtn">Steam Links</button>
+  <div class="dropdown-content">
+    <a href="http://steamcommunity.com/profiles/76561198130572111" target="_blank">Steam</a>
+    <a href="http://steamrep.com/profiles/76561198130572111" target="_blank">SteamRep</a>
+    <a href="https://steamdb.info/calculator/76561198130572111/" target="_blank">SteamDB</a>
+    <a href="https://steamladder.com/profile/76561198130572111/" target="_blank">SteamLadder</a>
+  </div>
+</div>
+	
   <br>
 <a href="https://www.reddit.com/user/justshoot03" target="_blank" class="button setsize blue">Reddit</a>
   <br>
