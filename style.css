@@ -19,6 +19,9 @@ body {
     cursor: pointer;
     border-radius: 12px;
 
+.ddla {
+    background-color: #FFFFFF;
+    padding: 15px 0px;
 } 
 
 .setsize {
