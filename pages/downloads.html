@@ -53,6 +53,25 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   return " ";
 } 
 
+unction passwordBennettAndroid() {
+    var testV = 1;
+    var pass1 = prompt('Please Enter The Password','');
+  while (testV < 3) {
+   if (!pass1) 
+      history.go(-1);
+    if (pass1.toLowerCase() == "bennett") {
+      window.location.replace("https://www.dropbox.com/s/wpo886qvkffq6z6/com.foddy.gettingover_2017-11-23.apk.zip?dl=1");
+  break;
+} 
+testV+=1;
+  var pass1 = 
+  prompt('Access Denied - Password Incorrect, Please Try Again.','');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+  history.go(-1);
+  return " ";
+} 
+
   function passwordPhotoshop() {
     var testV = 1;
     var pass1 = prompt('Please Enter The Password','');
@@ -153,7 +172,7 @@ if (pass1.toLowerCase()!="password" & testV == 3)
 <FORM>
 <input type="button" value="Getting Over It" class="button setsize red" onClick="passwordBennett()">
   <br>
-<input type="button" value="Getting Over It (Android)" class="button setsize red" onClick="passwordBennett()">
+<input type="button" value="Getting Over It (Android)" class="button setsize red" onClick="passwordBennettAndroid()">
   <br>
   <!--
 <input type="button" value="Photoshop CS6" class="button setsize red" onClick="passwordPhotoshop()">
