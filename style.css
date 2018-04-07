@@ -198,3 +198,8 @@ div.index-polls {
     margin-right: 5%;
     margin-top: 40px;
 }
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
