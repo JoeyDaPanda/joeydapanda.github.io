@@ -195,8 +195,10 @@ div.index-notifmargin {
 }
 
 div.index-polls {
-    margin-right: 5%;
-    margin-top: 40px;
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 100%;
+    position: absolute;
 }
 
 div.sticky {
