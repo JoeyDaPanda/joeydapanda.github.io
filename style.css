@@ -190,6 +190,7 @@ div.index-notifmargin {
     margin-right: 75%;
     border-style: solid;
     border-color: black;
+    overflow: scroll;
 }
 
 div.index-polls {
