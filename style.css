@@ -207,8 +207,7 @@ div.sticky {
 }
 
 .index-column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 100%;
+    -webkit-columns: 33.3% 3;
+    -moz-columns: 33.3% 3;
+    columns: 33.3% 3;
 }
