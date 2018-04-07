@@ -188,6 +188,9 @@ div.index-notifmargin {
     margin-top: 10%;
     margin-bottom: 15%;
     margin-right: 75%;
+    width: 275px;
+    height: 600px;
+    overflow: scroll;
     border-style: solid;
     border-color: black;
     overflow: scroll;
@@ -199,3 +202,4 @@ div.index-polls {
     margin-right: 5%;
     margin-bottom: 60%;
 }
+
