@@ -217,5 +217,6 @@ div.leaderboardmargin {
    margin-top: 5%;
 	margin-bottom: 5%;
    margin-right: 5%;
+   position: absolute;
 	width: 550px;	
 }	
