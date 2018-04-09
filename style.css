@@ -196,14 +196,9 @@ div.index-notifmargin {
 
 div.index-polls {
     margin-right: 30px;
-    margin-top: 50px;
+    margin-top: 75px;
     width: 100%;
     position: absolute;
-}
-
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
 }
 
 .index-column {
