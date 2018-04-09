@@ -185,8 +185,8 @@ div.w750 {
 
 div.index-notifmargin {
     margin-left: 5%;
-    margin-top: 10%;
-    width: 275px;
+    margin-top: 5%;
+    width: 400px;
     height: 600px;
     overflow: scroll;
     border-style: solid;
@@ -211,3 +211,12 @@ div.sticky {
     -moz-columns: 33.3% 3;
     columns: 33.3% 3;
 }
+
+div.leaderboardmargin {
+	    margin-left: 5%;
+    margin-top: 5%;
+	 border-style: solid;
+    border-color: black;
+    overflow: scroll;
+}
+	
