@@ -306,7 +306,10 @@ div.leaderboardmargin {
     color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+	padding: 2px 16px;
+	color: black;
+}
 
 .modal-footer {
     padding: 2px 16px;
