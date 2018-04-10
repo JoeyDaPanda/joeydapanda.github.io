@@ -141,9 +141,22 @@
 </div> 
 
 <script>
-
+	
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+	
 function bgcolor() {
     document.body.style.backgroundColor = "red";
+    sleep(200);
+    document.body.style.backgroundColor = "blue";
+    sleep(200);
+    document.body.style.backgroundColor = "initial";
 }	
 </script>
 
