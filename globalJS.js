@@ -1,3 +1,5 @@
+window.onload = function(){ 
+
 var modal = document.getElementById('myModal');
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -133,3 +135,5 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   history.go(-1);
   return " ";
 } 
+
+}
