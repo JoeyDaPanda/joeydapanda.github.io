@@ -139,15 +139,15 @@ if (pass1.toLowerCase()!="password" & testV ==3)
 }
 
 function bgwhite() {
-    document.body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = "White";
 }
 
 function bgliblue() {
     document.body.style.backgroundColor = "#ADD8E6";
 }
 
-function bggrey() {
-    document.body.style.backgroundColor = "Grey";
+function bgred() {
+    document.body.style.backgroundColor = "Red";
 }
 
 function bgnormal() {
