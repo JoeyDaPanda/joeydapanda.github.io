@@ -43,6 +43,10 @@ body {
    color: #000000;
 }    /* White */
 
+.buttboarder {
+    boarder-style: solid;
+    boarder-color: black;
+}
 
 .back {
     
