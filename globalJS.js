@@ -156,8 +156,6 @@ function bgnormal() {
     document.body.style.backgroundColor = "#505050";
 }
 
-<script type="text/javascript">
-
 // BG COLOR FUNCTIONS SAVE COOKIE
 	
 function createCookie(name,value,days) {
