@@ -150,6 +150,6 @@ function bggrey() {
     document.body.style.backgroundColor = "Grey";
 }
 
-function bggrey() {
+function bgnormal() {
     document.body.style.backgroundColor = "#505050";
 }
