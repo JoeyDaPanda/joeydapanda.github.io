@@ -191,11 +191,11 @@ var backColor = new Array();
 
 backColor[0] = 'White';
 backColor[1] = '#ADD8E6';
-backColor[2] = 'Red;
+backColor[2] = 'Red';
 backColor[3] = '#505050';
 
 
-function changeBG(whichColor){
+function changeBG(whichColor) {
  document.body.style.backgroundColor = backColor[whichColor];
  createCookie('backColor', whichColor);
 }
