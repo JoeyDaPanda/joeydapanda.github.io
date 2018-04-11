@@ -137,3 +137,19 @@ if (pass1.toLowerCase()!="password" & testV ==3)
 } 
 
 }
+
+function bgwhite() {
+    document.body.style.backgroundColor = "white";
+}
+
+function bgliblue() {
+    document.body.style.backgroundColor = "#ADD8E6";
+}
+
+function bggrey() {
+    document.body.style.backgroundColor = "Grey";
+}
+
+function bggrey() {
+    document.body.style.backgroundColor = "initial";
+}
