@@ -140,6 +140,8 @@ if (pass1.toLowerCase()!="password" & testV ==3)
 
 // BACKGROUND COLOR BUTTONS
 
+/*
+
 function bgwhite() {
     document.body.style.backgroundColor = "White";
 }
@@ -155,6 +157,8 @@ function bgred() {
 function bgnormal() {
     document.body.style.backgroundColor = "#505050";
 }
+
+*/
 
 // BG COLOR FUNCTIONS SAVE COOKIE
 	
