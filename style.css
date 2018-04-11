@@ -35,9 +35,13 @@ body {
 .red {background-color: #FF0000;}     /* Red */  
 .green {background-color: #00FF00;}   /* Green */
 .blue {background-color: #0000FF;}    /* Blue */
-.white {background-color: #FFFFFF;}    /* White */
 .liblue {background-color: #80D7D8;}    /* Light Blue */
 .grey {background-color: #505050;}    /* Grey */
+
+.white {
+   background-color: #FFFFFF;
+   color: #000000;
+}    /* White */
 
 
 .back {
