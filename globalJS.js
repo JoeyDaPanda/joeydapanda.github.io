@@ -151,5 +151,5 @@ function bggrey() {
 }
 
 function bggrey() {
-    document.body.style.backgroundColor = "initial";
+    document.body.style.backgroundColor = "#505050";
 }
