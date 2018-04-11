@@ -51,8 +51,7 @@ body {
 }    /* White */
 
 .buttboarder {
-    boarder-style: solid;
-    boarder-color: black;
+	border: 2px solid #000000;
 }
 
 .back {
