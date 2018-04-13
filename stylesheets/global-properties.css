@@ -1,0 +1,181 @@
+/*
+// Full site properties applied here
+*/
+
+
+body {background-color: #515A5A;}
+body {font-family: Ubuntu;}
+
+div.full-margin {
+	margin-top: 75px;
+	margin-left: 5%;
+	margin-right: 5%;
+	marigin-bottom: 5%;
+}
+
+/*
+// Navigation Menu Options Below
+*/
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu-bar li {
+    float: left;
+}
+
+.menu-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.menu-bar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.menu-bar li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+.menu-bar li button:hover:not(.active) {
+    background-color: #111;
+}
+
+.menu-bar {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.active {
+    background-color: #4286f4;
+}
+
+
+/*
+// Popup settings menu below
+*/
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #FF0000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #FF0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #333;
+    color: white;
+}
+
+.modal-body {
+	padding: 2px 16px;
+	color: black;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #333;
+    color: white;
+}
+
+
+/*
+// Notification card options
+*/
+
+
+div.index-notifmargin {
+    margin-left: 5%;
+    margin-top: 100px;
+    width: 350px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+div.index-notifheader {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+div.index-notifbody {
+    background-color: #FFFFFF;
+    color: #000000;
+    overflow: scroll;
+    width: 345px;
+    height: 515px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    padding-bottom: 5%;
+    text-align: center;
+    position: fixed;
+}

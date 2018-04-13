@@ -1,75 +1,3 @@
-
-<html>
-
-<head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>DOWNLOADS</title>
-  <link rel="icon" href="/assets/icon.png">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-  <link rel="stylesheet" href="/style.css">
-  
-</head>
-  
-<style>
-  .dropbtn {
-    background-color: Red;
-    color: white;
-    padding: 16px;
-    border-radius: 12px;
-    font-size: 16px;
-    border: none;
-    width: 250px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: red;
-    border-radius: 12px;
-    border-style: solid;
-    border-color: white;
-    min-width: 250px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    border-radius: 12px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-	background-color: white;
-    color: black;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: red;
-}
-</style>
-
-<body>
-	
-<script>
-	
 function passwordBennett() {
     var testV = 1;
     var pass1 = prompt('Please Enter The Password','');
@@ -107,7 +35,6 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   history.go(-1);
   return " ";
 } 
-
 function passwordBennettAndroid() {
     var testV = 1;
     var pass1 = prompt('Please Enter The Password','');
@@ -163,7 +90,7 @@ testV+=1;
 if (pass1.toLowerCase()!="password" & testV ==3) 
   history.go(-1);
   return " ";
-} 
+}
 
   function passwordAdobe() {
     var testV = 1;
@@ -171,7 +98,7 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   while (testV < 3) {
    if (!pass1) 
       history.go(-1);
-    if (pass1.toLowerCase() == "bennett") {
+    if (pass1.toLowerCase() == "cs6crack") {
       window.location.replace("https://www.dropbox.com/s/qjvqffuggc4z130/Adobe%20Cracked%20DLLs.zip?dl=1");
   break;
 } 
@@ -184,69 +111,40 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   return " ";
 } 
 
+  function passwordCitySkylines() {
+    var testV = 1;
+    var pass1 = prompt('Please Enter The Password','');
+  while (testV < 3) {
+   if (!pass1) 
+      history.go(-1);
+    if (pass1.toLowerCase() == "cs6crack") {
+      window.location.replace("https://megaup.net/2E3A?pt=RvTTsmrL47RXIi6%2BRqtOoOGXVtzVDdltvQ4dW3Gzc80%3D");
+  break;
+} 
+testV+=1;
+  var pass1 = 
+  prompt('Access Denied - Password Incorrect, Please Try Again.','');
 }
+if (pass1.toLowerCase()!="password" & testV ==3) 
+  history.go(-1);
+  return " ";
+} 
 
-</script>
-
-<center>
-    
-<header>
-  <div class="header menu-bar">
-  <ul>
-	  <li><a href="/index" class="w3-bar-item w3-button w3-padding-16">Home</a></li>
-	  <li><a href="/pages/profiles" class="w3-bar-item w3-button w3-padding-16">Profiles</a></li>
-	  <li><a href="/pages/projects" class="w3-bar-item w3-button w3-padding-16">Projects</a></li>
-	  <li><a href="/pages/downloads" class="w3-bar-item w3-button w3-padding-16">Downloads</a></li>
-  </ul>
-  </div>
-</div>
-</div>
-
-</header>
-  
-<div class="buttoncontainer center"> 
-  
-  <div class="dropdown">
-  <button class="dropbtn">Getting Over It</button>
-  <div class="dropdown-content">
-    <a onclick="javascript:passwordBennett()">Windows</a>
-    <a onclick="passwordBennettMac()">Mac</a>
-    <a onclick="passwordBennettAndroid()">Android</a>
-  </div>
-</div>
-	
-<div class="buttoncontainer center"> 
-  
-  <div class="dropdown">
-  <button class="dropbtn">Prison Architect</button>
-  <div class="dropdown-content">
-    <a onclick="passwordPrison()">Windows</a>
-    <a onclick="passwordPrisonMac()">Mac</a>
-  </div>
-</div>
-	
-<br>
-	
-<div class="buttoncontainer center"> 
-  
-  <a class="button setsize red" onclick="passwordAdobe()">Adobe CS6 Crack</a>
-  
-</div>
-
-  <!--
-<form>
-<input type="button" value="FL Studio 12" class="button setsize red" onClick="passwordFLStudio()">
-</form>
--->
-  </div>
-
-  <div class="footer">
-<footer>
-  <p>Created by: Joey Darisse & Zachary MacKenzie</p>
-</footer>
-</div>
-
-<script src="/globalJS.js"></script>
-	
-</body>
-</html>
+  function passwordGolfingOverIt() {
+    var testV = 1;
+    var pass1 = prompt('Please Enter The Password','');
+  while (testV < 3) {
+   if (!pass1) 
+      history.go(-1);
+    if (pass1.toLowerCase() == "Golfisfortheweak") {
+      window.location.replace("https://megaup.net/2qPJ?pt=yJMRG8zWMdSnVj7zBO9RB2agtCV%2BGCvvPKmWx6%2BENiA%3D");
+  break;
+} 
+testV+=1;
+  var pass1 = 
+  prompt('Access Denied - Password Incorrect, Please Try Again.','');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+  history.go(-1);
+  return " ";
+} 

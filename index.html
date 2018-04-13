@@ -1,43 +1,31 @@
-<!DOCTYPE HTML>
-
 <html>
-
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>PROPAGANDA</title>
-  <link rel="icon" href="/assets/icon.png">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-  
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/style.css">
-  
-</head>
-
-<body>
-    
-  <header>
-  <div class="header menu-bar">
-  <ul>
-	  <li><a href="/index" class="w3-bar-item w3-button w3-padding-16">Home</a></li>
-	  <li><a href="/pages/profiles" class="w3-bar-item w3-button w3-padding-16">Profiles</a></li>
-	  <li><a href="/pages/projects" class="w3-bar-item w3-button w3-padding-16">Projects</a></li>
-	  <li><a href="/pages/downloads" class="w3-bar-item w3-button w3-padding-16">Downloads</a></li>
-	  <li style="float:right"><a id="myBtn"><img src="/assets/settingscog.png" height="24px" width="24px"></a></li>
-  </ul>
-</div>
-</div>
-</header>
+	<title>PROPAGANDA</title>
 	
-	<div class="buttoncontainer center">
-		
+	 <link rel = "stylesheet" type = "text/css" href = "/stylesheets/global-properties.css" />
+	 <link rel = "stylesheet" type = "text/css" href = "/stylesheets/colors.css" />
+ 	 <link rel = "stylesheet" type = "text/css" href = "/stylesheets/objects.css" />
+	 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+	 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	 <link rel="icon" href="assets/icon.png">
 
+</head>
+<body>
+<div class="menu-bar">
+<ul>
+	<li style="float:left"><a href="/index" class="active">Home</a></li>
+	<li style="float:left"><a href="/profiles">Profiles</a></li>
+	<li style="float:left"><a href="/projects">Projects</a></li>
+	<li style="float:left"><a href="/downloads">Downloads</a></li>
+	<li style="float:right"><a id="myBtn"><img src="assets/settingscog.png" height="21px" width="21px"></a></li>
+</ul>
+</div>
+
+
+<center>
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -48,29 +36,30 @@
       <h2>Settings</h2>
     </div>
     <div class="modal-body">
-      <p>This is still under development</p>
-      <p><b>Background color settings</b></p>
-      <p><a href="changeBG(0)" class="button buttboarder white setsize2">White</a>
-<a href="changeBG(1)" class="button buttboarder liblue setsize2">Light Blue</a>
-<a href="javascript:changeBG(2)" class="button buttboarder red setsize2">Red</a>
-<a href="javascript:changeBG(3)" class="button buttboarder grey setsize2">Grey</a></p>
-      <p></p>
+<p><h2>Background color</h2></p>
+<p><a href="javascript:changeBG(0)" style="color:#000000;" class="white button solidboarder button-sm">White</a>
+<a href="javascript:changeBG(1)" class="liblue button solidboarder button-sm">Light Blue</a>
+<a href="javascript:changeBG(2)" class="red button solidboarder button-sm">Red</a>
+<a href="javascript:changeBG(3)" class="grey button solidboarder button-sm">Grey</a></p>
     </div>
     <div class="modal-footer">
-      <h5>Settings will be saved for 30 days</h5>
+      <h3>Settings will be saved for 30 days</h3>
     </div>
   </div>
 </div>
-		
-	</div>
 
-	<div class="index-notifmargin">
+</center>
 
-		<header class="w3-container w3-black">
+<div class="index-notifmargin">
+	<div class="index-notifheader">
+		<header>
  		 <h2>Notifications</h2>
 	  </header>
+	</div>
 
-<div class="w3-padding w3-white w3-display-container">
+	<div class="index-notifbody">
+
+<div class="">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>Website Overhaul In Progress</h2>
@@ -78,7 +67,7 @@
 	<p><b>4/12/18</b></p>	
 </div>		
 		
-<div class="w3-padding w3-white w3-display-container">
+<div class="w3-padding white w3-display-container">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>Class Leaderboard</h2>
@@ -86,7 +75,7 @@
 	<p><b>4/9/18</b></p>	
 </div>
 
-<div class="w3-padding w3-white w3-display-container">
+<div class="w3-padding white w3-display-container">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>Personalized Settings Beta</h2>
@@ -95,7 +84,7 @@
 	<p><b>4/9/18</b></p>	
 </div>
 		
-<div class="w3-padding w3-white w3-display-container">
+<div class="w3-padding white w3-display-container">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>Polling System Disabled</h2>
@@ -103,7 +92,7 @@
 	<p><b>4/7/18</b></p>	
 </div>
 		
-<div class="w3-padding w3-white w3-display-container">
+<div class="w3-padding white w3-display-container">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>New Polling System</h2>
@@ -111,7 +100,7 @@
 	<p><b>4/7/18</b></p>	
 </div>
 	
-<div class="w3-padding w3-white w3-display-container">
+<div class="w3-padding white w3-display-container">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>Prison Architect Added</h2>
@@ -119,7 +108,7 @@
 	<p><b>4/6/18</b></p>	
 </div>
 
-<div class="w3-padding w3-white w3-display-container">
+<div class="w3-padding white w3-display-container">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>Beta 1.0a Released</h2>
@@ -127,7 +116,7 @@
 	<p><b>4/6/18</b></p>	
 </div>
 	
-<div class="w3-padding w3-white w3-display-container">
+<div class="w3-padding white w3-display-container">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
     <i class="fa fa-remove"></i></span>
   <h2>Bennett Foddy Updates</h2>
@@ -135,83 +124,14 @@
 	<p><b>4/6/18</b></p>	
 </div>
 </div>
-
-<div class="w3-container leaderboardmargin">
-
-  <table class="w3-table-all">
-    <thead>
-      <tr class="w3-black">
-	<th>Position</th>
-        <th>Username</th>
-        <th>Best Time</th>
-      </tr>
-    </thead>
-    <tr>
-      <td class="w3-text-black"><b>1</b></td>
-      <td class="w3-text-black"><b>JoeyDaPanda</b></td>
-      <td class="w3-text-black"><b>7:54</b></td>
-    </tr>
-    <tr>
-      <td class="w3-text-black">2</td>
-      <td class="w3-text-black">WalrusAMC</td>
-      <td class="w3-text-black">00:00:00</td>
-    </tr>
-  </table>
-</div>		
-
-<!-- "Section Disabled due to inability to create item columns"
+</div>
 	
-<div class="index-polls">
-<div id="qp_all1924643" style="width:350px;">
-<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<STYLE>#qp_main1924643 .qp_btna:hover input {background:#00355F!important} #qp_all1924643 {max-width:815px; margin:0 auto;}</STYLE>
-<div id="qp_main1924643" fp='73FE45b6-53' results=0 style="border-radius:0px;margin:0 auto;padding:0.8em;background-color:#FFF;font-family: 'Open Sans', sans-serif, Arial;color:#000;border: 1px solid #DBD9D9;max-width:815px;box-sizing:border-box">
-<div style="font-size:1.2em;background-color:#00355F;color:#FFF;font-family:'Open Sans', sans-serif, Arial">
-<div style="padding:0.8em;line-height:1.3em">What game should be added next?</div>
-</div>
-<form id="qp_form1924643" action="//www.poll-maker.com/results1924643x73FE45b6-53" method="post" target="_blank" style="display:inline;margin:0px;padding:0px">
-<div style="padding:0px"><input type=hidden name="qp_d1924643" value="43197.5423495356-43197.5423539615">
-<div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
-<span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1924643" type="radio" value="1" />Papers Please</span>
-</div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
-<span style="display:block;padding-left:30px;cursor:inherit">
-<input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1924643" type="radio" value="2" />Golf With Friends</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1924643" type="radio" value="3" />Black Ops II</span></div></div><div style="padding-left:0px;clear:both;text-align:left;margin:1em auto"><a style="display:inline-block;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;padding-right:5px;text-decoration:none" class="qp_btna" href="#"><input name="qp_b1924643" style="min-width:7.8em;padding:0.5em;background-color:#0B79D3;font-family: 'Open Sans', sans-serif, Arial;font-size:16px;color:#FFF;cursor:pointer;cursor:hand;border:0px;-webkit-appearance:none;border-radius:0px" type="submit" btype="v" value="Vote" /></a><a style="display:inline-block;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;padding-left:5px;text-decoration:none" class="qp_btna" href="#"><input name="qp_b1924643" style="min-width:7.8em;padding:0.5em;background-color:#0B79D3;font-family: 'Open Sans', sans-serif, Arial;font-size:16px;color:#FFF;cursor:pointer;cursor:hand;border:0px;-webkit-appearance:none;border-radius:0px" type="submit" btype="r" value="Results" /></a></div></form><div style="display:none"><div id="qp_rp1924643" style="font-size:14px;width:5ex;text-align:right;overflow:hidden;position:absolute;right:5px;height:1.5em;line-height:1.5em"></div><div id="qp_rv1924643" style="font-size:14px;line-height:1.5em;width:0%;text-align:right;color:#FFF;box-sizing:border-box;padding-right:3px"></div><div id="qp_rb1924643" style="font-size:14px;line-height:1.5em;color:#FFFFFF;display:block;padding-right:10px 5px"></div><div id="qp_rva1924643" style="background:#006FB9;border-color:#006FB9"></div><div id="qp_rvb1924643" style="background:#163463;border-color:#163463"></div><div id="qp_rvc1924643" style="background:#5BCFFC;border-color:#1481AB"></div></div></div><div style='text-align:center; margin:5px;'>Created with <a id="qp_foot1924643" href="http://pollmaker.vote/e/DV2GSJH3">QuizMaker</a></div></div><script src="//scripts.poll-maker.com/3012/scpolls.js" language="javascript"></script>
-</div>
+<footer class="footer">
+	<h3>This website uses cookies</h3>
+</footer>
 
-
--->
-
-</div>
-</div>
-</div> 
-
-<script src="/globalJS.js"></script>
-
-<script>
-	
-	window.onload = function(){ 
-
-var modal = document.getElementById('myModal');
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-</script>
+<script src="js/settings-popup.js"></script>
+<script src="js/BGCcookie.js"></script>
 
 </body>
-</html>
+</html>	
