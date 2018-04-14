@@ -98,7 +98,7 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   while (testV < 3) {
    if (!pass1) 
       history.go(-1);
-    if (pass1.toLowerCase() == "cs6crack") {
+    if (pass1.toLowerCase() == "cs6") {
       window.location.replace("https://www.dropbox.com/s/qjvqffuggc4z130/Adobe%20Cracked%20DLLs.zip?dl=1");
   break;
 } 
@@ -117,7 +117,7 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   while (testV < 3) {
    if (!pass1) 
       history.go(-1);
-    if (pass1.toLowerCase() == "cs6crack") {
+    if (pass1.toLowerCase() == "skyline") {
       window.location.replace("https://megaup.net/2E3A?pt=RvTTsmrL47RXIi6%2BRqtOoOGXVtzVDdltvQ4dW3Gzc80%3D");
   break;
 } 
@@ -136,7 +136,7 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   while (testV < 3) {
    if (!pass1) 
       history.go(-1);
-    if (pass1.toLowerCase() == "Golfisfortheweak") {
+    if (pass1.toLowerCase() == "alva") {
       window.location.replace("https://megaup.net/2qPJ?pt=yJMRG8zWMdSnVj7zBO9RB2agtCV%2BGCvvPKmWx6%2BENiA%3D");
   break;
 } 
