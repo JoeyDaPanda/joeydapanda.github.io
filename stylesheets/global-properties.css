@@ -168,6 +168,21 @@ div.index-notifbody {
     padding-right: 20px;
 }
 
+div.half {
+    width: 50%;
+    float: left;
+}
+
+div.third {
+    width: 33.3%;
+    float: left;
+}
+
+div.fourth {
+    width: 25%;
+    float: left;
+}
+
 div.foot {
     padding-bottom: 5%;
     text-align: center;
