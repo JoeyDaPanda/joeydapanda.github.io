@@ -1,8 +1,8 @@
 function gameSearch() {
     var input, filter, ul, li, a, i;
-    input = document.getElementById("gameSearch");
+    input = document.getElementById("gameSearchUL");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
+    ul = document.getElementById("gameSearchUL");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
