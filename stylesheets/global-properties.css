@@ -146,6 +146,10 @@ div.full-margin {
 // Notification card options
 */
 
+div.index-notifbox {
+    float:left;
+    display:inline; 
+    width: 49%;
 
 div.index-notifmargin {
     margin-left: 5%;
