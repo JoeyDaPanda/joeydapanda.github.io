@@ -66,6 +66,8 @@ div.full-margin {
 // Menu Dropdown
 */
 
+/* Disabled non-functional
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -90,6 +92,8 @@ div.full-margin {
 
 .dropdown:hover .dropdown-content {
     display: block;
+
+*/
 
 /*
 // Popup settings menu below
