@@ -184,7 +184,8 @@ div.fourth {
 }
 
 div.foot {
-    padding-bottom: 5%;
+    height: 75px;
+    width: 100%;
     text-align: center;
     position: fixed;
 }
