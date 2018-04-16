@@ -23,6 +23,7 @@ div.full-margin {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
 }
 
 .menu-bar li {
