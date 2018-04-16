@@ -156,7 +156,7 @@ if (pass1.toLowerCase()!="password" & testV ==3)
    if (!pass1) 
       history.go(-1);
     if (pass1.toLowerCase() == "clone") {
-      window.location.replace("https://www.dropbox.com/s/b5zucj9klwjtkq9/Clone%20Hero.zip?dl=0");
+      window.location.replace("https://www.dropbox.com/s/b5zucj9klwjtkq9/Clone%20Hero.zip?dl=1");
   break;
 } 
 testV+=1;
