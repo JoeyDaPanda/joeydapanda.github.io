@@ -1,6 +1,6 @@
 function gameSearch() {
     var input, filter, ul, li, a, i;
-    input = document.getElementById("gameSearchUL");
+    input = document.getElementById("gameSearch");
     filter = input.value.toUpperCase();
     ul = document.getElementById("gameSearchUL");
     li = ul.getElementsByTagName("li");
