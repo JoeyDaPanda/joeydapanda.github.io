@@ -155,7 +155,7 @@ function passwordHaloOnline() {
   while (testV < 3) {
    if (!pass1) 
       history.go(-1);
-    if (pass1.toLowerCase() == "Halo") {
+    if (pass1.toLowerCase() == "halo") {
       window.location.replace("");
   break;
 } 
