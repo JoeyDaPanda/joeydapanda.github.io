@@ -111,25 +111,6 @@ if (pass1.toLowerCase()!="password" & testV ==3)
   return " ";
 } 
 
-  function passwordCitySkylines() {
-    var testV = 1;
-    var pass1 = prompt('Please Enter The Password','');
-  while (testV < 3) {
-   if (!pass1) 
-      history.go(-1);
-    if (pass1.toLowerCase() == "skylines") {
-      window.location.replace("http://corneey.com/wAq8Ws");
-  break;
-} 
-testV+=1;
-  var pass1 = 
-  prompt('Access Denied - Password Incorrect, Please Try Again.','');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-  history.go(-1);
-  return " ";
-} 
-
   function passwordGolfingOverIt() {
     var testV = 1;
     var pass1 = prompt('Please Enter The Password','');
@@ -157,6 +138,25 @@ if (pass1.toLowerCase()!="password" & testV ==3)
       history.go(-1);
     if (pass1.toLowerCase() == "clone") {
       window.location.replace("http://corneey.com/wAq8WQ");
+  break;
+} 
+testV+=1;
+  var pass1 = 
+  prompt('Access Denied - Password Incorrect, Please Try Again.','');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+  history.go(-1);
+  return " ";
+} 
+
+function passwordHaloOnline() {
+    var testV = 1;
+    var pass1 = prompt('Please Enter The Password','');
+  while (testV < 3) {
+   if (!pass1) 
+      history.go(-1);
+    if (pass1.toLowerCase() == "Halo") {
+      window.location.replace("");
   break;
 } 
 testV+=1;
