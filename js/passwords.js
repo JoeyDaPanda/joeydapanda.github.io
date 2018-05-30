@@ -156,7 +156,7 @@ function passwordHaloOnline() {
    if (!pass1) 
       history.go(-1);
     if (pass1.toLowerCase() == "halo") {
-      window.location.replace("");
+      window.location.replace("http://www.mediafire.com/file/sasisnsxdxo2ygt/Halo%20Online.zip");
   break;
 } 
 testV+=1;
